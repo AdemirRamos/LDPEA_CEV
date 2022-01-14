@@ -1,0 +1,99 @@
+Algoritmos Computacionais: qual a diferença entre algoritmos e algoritmos computacionais?
+
+- "Algoritmos computacionais são passos a serem seguidos por um 'módulo processador' e seus respectivos 'usuários' que, quando executados na ordem correta, conseguem 'realizar' uma (ou mais) determinada (s) tarefa (s)."
+
+- Guanabara, Gustavo
+
+Glossário:
+
+- "Módulo processador": tudo aquilo que pode efetuar processamento; computadores, câmeras, celulares, et cetera;
+
+- "Usuário": quem está escrevendo ou interagindo com o algoritmo (computacional);
+
+- "Realizar": resolver o problema;
+
+"Tarefa": o problema.
+
+- Exemplos de algoritmos:
+
+- Sistema de gestão;
+- Home bank;
+- Redes Sociais;
+- Vídeos;
+- Games / games (portáreis).
+
+O primeiro passo para criar algoritmos computacionais consiste em aprender a "lógica de programação";
+
+O segundo passo consiste em escolher uma linguagem de programação na qual o algoritmo computacional será escrito;
+
+O terceiro passo consiste em criar o sistema completo para oferecer a resolução almejada.
+
+Para representar a lógico de programação, temos, por exemplo, o "fluxograma". - Ver o print dessa aula para mais informações.
+
+A exeção de "Portugol", os dois métodos mostrados no "print" já são antigos.
+
+P. S.: "Portugol" não é uma linguagem de programação, mas sim uma pseudolinguagem de programação.
+
+P. S.: "Portugol" é uma maneira de representar a sua lógica de programação antes d'ela ser passada para uma linguagem de programação.
+
+- Comandos de saída do "Visualg":
+
+"Escreva()": faz com uma mensagem seja escrita para o usuário. Exemplo: "Escreva('Olá, mundo!')".
+
+P. S.: Tudo entre aspas é considerado uma mensagem, uma cadeia de caracteres.
+
+- "Escreval()": escreve uma mensagem com quebra de linha. Exemplo: "Escreval('Me livrei da maldição')".
+
+P. S.: O "l" de "Escreval()" significa "linha".
+
+- O que são variáveis?:
+
+- Variáveis são espaços na memória do computador / programa.
+
+- Em uma variável simples, só pode haver um valor por ver.
+
+- Variáveis (no Visualg): var / identificador: tipo. Exemplo:
+
+"brinquedo: bola".
+
+- Identificadores:
+
+- Servem para identificar variáveis.
+
+As 6 Regras Para Identificadores (No Visualg):
+
+- 1ª: O identificador deve começar com uma letra;
+- 2ª: Os caracteres posteriores ao primeiro podem ser letras ou números;
+- 3ª: Nos identificadores não se podem usar nenhum símbolo que não seja "_" ("underline");
+- 4ª: Identificadores não podem ter espaços em branco;
+- 5ª: Identificadores não podem ter letras acentuadas;
+- 6ª: Identificadores não podem ser palavras reservadas, isso é, palavras (da cor azul) que servem para designar comandos no Visualg.
+
+P. S.: "Inicio_Algoritmo" é um exemplo de identificador válido em Portugol.
+
+- Os 4 Tipos Primitivos do Portugol:
+
+- O tipo "Inteiro" permite que a sua variável armazene (somente) números inteiros. Exemplo: "1";
+- O tipo "Real" permite que a sua variável armazene (somente) números reais (flutuantes). Exemplo: 5.1;
+- O tipo "Caractere" permite que a sua variável armazene (somente) caracteres. Exemplo: "Ademir";
+- O tipo "Lógico" permite que a sua variável armzene (somente) dois valores: "verdadeiro" ou "falso".
+
+- "5.0" (e números com essa ) é um número inteiro e real no Portugol.
+- Se é necessário o número inteiro, o delcare como inteiro; se for necessário a parte fracionário, o delcare como real.
+- Uma sequência de caracteres pode conter símbolos / acentos e sempre deve ir entre aspas.
+
+- Atribuições (No Portugol):
+
+Exemplo: mensagem <- 'Olá, mundo!'. O símbolo "<-" representa a atribuição no Portugol.
+
+Outro exemplo prático:
+
+mensagem: caractere
+
+mensagem <- 'Olá, mundo!'
+
+Escreva(mensagem)
+
+- Comandos de Saída No Visualg (Concatenação):
+
+- No Visualg, a concatenação pode ser representada pela ",".
