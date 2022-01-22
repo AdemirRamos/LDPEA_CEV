@@ -1,14 +1,14 @@
 #Maior nota da sala (exercício 02):
 
 contador = 0
-maior = menor = 0
-nome_maior = nome_menor = ''
+maior = 0
+nome_maior =  ''
 
 alunos = int(input('Qual a quantidade de alunos? '))
 print()
 for n in range(0, alunos):
-    nome = str(input('Nome do aluno: '))
-    nota = int(input('Nota do aluno: '))
+    nome = str(input(f'Nome do (a) {n}ª aluno (a): '))
+    nota = int(input('Nota do (a) {n}ª aluno (a): '))
     print()
     
     if nota > maior:
