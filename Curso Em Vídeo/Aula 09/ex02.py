@@ -6,9 +6,10 @@ nome_maior =  ''
 
 alunos = int(input('Qual a quantidade de alunos? '))
 print()
-for n in range(0, alunos):
-    nome = str(input(f'Nome do (a) {n}ª aluno (a): '))
-    nota = int(input('Nota do (a) {n}ª aluno (a): '))
+contador = 1
+while contador < alunos + 1:
+    nome = str(input(f'Nome do (a) {contador}ª aluno (a): '))
+    nota = int(input(f'Nota do (a) {contador}ª aluno (a): '))
     print()
     
     if nota > maior:
@@ -17,9 +18,9 @@ for n in range(0, alunos):
 
     elif maior > nota:
         nota = maior
-        
-    contador += 1
 
+    contador += 1
+    
 print(f'O (A) aluno (a) com a maior nota foi: {nome_maior}. Nota: {maior}.')
 
 '''
