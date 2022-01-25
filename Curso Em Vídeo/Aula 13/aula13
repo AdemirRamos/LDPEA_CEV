@@ -1,0 +1,5 @@
+Variáveis Compostar ("arrays" / vetores | listas) [Parte 1]
+
+Variável Composta Homogênea: todos os valores armazenados na variável serão do mesmo tipo.
+
+Variável Composta Homogênea Unidimensional: só é preciso um índice para manipular referenciar os valores da variável.
