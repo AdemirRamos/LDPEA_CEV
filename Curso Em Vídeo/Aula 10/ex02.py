@@ -1,4 +1,4 @@
-#Ex02: Analisador de Pessoas.
+#Ex02: Seletor de Pessoas.
 
 def menu():
 
