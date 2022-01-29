@@ -1,3 +1,5 @@
+#Ex01: Super Contador.
+
 def contagem_1(a):
     if a == 1:
         contador = 0
